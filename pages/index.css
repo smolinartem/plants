@@ -1,0 +1,14 @@
+/*! ---VENDOR--- */
+@import url('../vendor/normalize.css');
+@import url('../vendor/fonts.css');
+@import url('../vendor/vars.css');
+/*! ---ROOT--- */
+@import url('../styles/root.css');
+/*! ---BLOCKS--- */
+@import url('../styles/header.css');
+@import url('../styles/burger.css');
+@import url('../styles/hero.css');
+@import url('../styles/info.css');
+@import url('../styles/features.css');
+/*! ---MEDIA--- */
+@import url('../styles/media.css');

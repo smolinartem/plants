@@ -1,0 +1,63 @@
+.header {
+  padding: 28px 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(3px);
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__link {
+  text-decoration: none;
+}
+
+.header__logo {
+  transition: fill 0.3s linear;
+}
+
+.header__logo:hover {
+  fill: #fff;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+
+.header__item {
+  text-decoration: none;
+  color: var(--green-color);
+  font-weight: 400;
+  line-height: 1.5;
+  transition: color 0.3s linear;
+}
+
+.header__item:hover {
+  color: #fff;
+}
+
+.header__buttons {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.header__button {
+  text-decoration: none;
+}
+
+.header__icon {
+  transition: fill 0.3s linear;
+}
+
+.header__icon:hover {
+  fill: #fff;
+}

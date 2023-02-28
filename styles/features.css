@@ -1,0 +1,53 @@
+.features {
+  padding-bottom: var(--section-padding);
+}
+
+.features__slider {
+  margin-top: 32px;
+  padding: 0 20px;
+}
+
+.features__slider {
+  position: relative;
+  background-color: antiquewhite;
+}
+.features__swiper {
+}
+.features__slide {
+}
+.features__image {
+  max-width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.features__buttons {
+}
+
+.features__btn {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--green-color);
+  background: url('../images/arrow.svg') center no-repeat;
+}
+
+.swiper {
+  overflow: hidden;
+}
+.swiper-wrapper {
+  display: inline-flex;
+}
+.swiper-slide {
+}
+.swiper-button-prev {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+}
+.swiper-button-next {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%) rotate(180deg);
+}
