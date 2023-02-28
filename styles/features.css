@@ -9,21 +9,16 @@
 
 .features__slider {
   position: relative;
-  background-color: antiquewhite;
 }
-.features__swiper {
-}
-.features__slide {
-}
+
 .features__image {
   max-width: 100%;
   object-fit: cover;
   object-position: center;
 }
-.features__buttons {
-}
 
 .features__btn {
+  z-index: 10;
   cursor: pointer;
   width: 40px;
   height: 40px;
@@ -31,14 +26,6 @@
   background: url('../images/arrow.svg') center no-repeat;
 }
 
-.swiper {
-  overflow: hidden;
-}
-.swiper-wrapper {
-  display: inline-flex;
-}
-.swiper-slide {
-}
 .swiper-button-prev {
   position: absolute;
   top: 50%;
