@@ -1,9 +1,9 @@
-/* * {
+* {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-} */
+}
 .page {
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
@@ -18,13 +18,13 @@
   margin: 0;
   font-weight: 500;
   font-size: 36px;
-  line-height: 140%;
+  line-height: 1.4;
   color: var(--green-color);
 }
 .section-desc {
   margin: 0;
   margin-top: 12px;
-  line-height: 165%;
+  line-height: 1.65;
   letter-spacing: 0.04em;
   color: #7d7d7d;
   max-width: 522px;

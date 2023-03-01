@@ -1,5 +1,5 @@
 .info {
-  padding: 150px 0;
+  padding: var(--section-padding) 0;
 }
 
 .info__cards {
