@@ -213,6 +213,12 @@
   .collecion__buttons {
     justify-content: center;
   }
+  .products__container {
+    padding: 0 15px;
+  }
+  .products__list {
+    gap: 18px;
+  }
 }
 
 @media (max-width: 400px) {
