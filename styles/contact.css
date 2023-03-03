@@ -1,0 +1,70 @@
+.contact {
+  padding: 100px 0;
+  margin: var(--section-padding) 0;
+  background-image: linear-gradient(0deg, rgba(1, 75, 64, 0.6), rgba(1, 75, 64, 0.6)),
+    url('../images/contact-bg.png');
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact__title {
+  text-align: center;
+  color: #fff;
+}
+
+.contact__desc {
+  text-align: center;
+  color: #e7e7e7;
+}
+
+.contact__form {
+  margin-top: 32px;
+  width: 60%;
+  display: flex;
+}
+.contact__email {
+  display: block;
+  width: 100%;
+  outline: none;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  padding: 20px 16px;
+  border: 1px solid #e7e7e7;
+
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fff;
+}
+.contact__email::placeholder {
+  font-family: inherit;
+  color: #e7e7e7;
+}
+.contact__email:focus {
+  outline: none;
+  border: 1px solid #fff;
+  box-shadow: -1px -1px 2px -1px #fff;
+}
+
+.contact__submit {
+  display: block;
+  cursor: pointer;
+  border: none;
+
+  padding: 16px 24px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--green-color);
+  background-color: #e7e7e7;
+  transition: all 0.3s linear;
+}
+
+.contact__submit:hover {
+  color: #e7e7e7;
+  background-color: var(--green-color);
+}

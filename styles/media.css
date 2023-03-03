@@ -137,6 +137,9 @@
   .section-desc {
     max-width: 390px;
   }
+  .contact__form {
+    width: 90%;
+  }
 }
 
 @media (max-width: 735px) {
@@ -218,6 +221,19 @@
   }
   .products__list {
     gap: 18px;
+  }
+  .updates__container {
+    padding: 0 15px;
+  }
+  .contact {
+    padding: 60px 0;
+  }
+  .contact__container {
+    padding: 0 15px;
+  }
+  .contact__form {
+    flex-direction: column;
+    width: 100%;
   }
 }
 
